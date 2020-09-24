@@ -1,0 +1,93 @@
+.card{
+	width: 92%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 0.31rem;
+	margin-bottom: 0.42rem;
+}
+.card .title{
+	display: flex;
+	justify-content: space-between;
+}
+.card .left{
+	display: flex;
+	width: unset;
+}
+.card .left img{
+	width: 0.75rem;
+	height: 0.75rem;
+}
+.card .left>div p:nth-child(1){
+	font-family: SourceSansPro-Regular;
+	font-size: 0.3rem;
+	letter-spacing: 0rem;
+	color: #3c4f5e;
+}
+.card .left>div p:nth-child(2){
+	font-family: SourceSansPro-ExtraLight;
+	font-size: 0.2rem;
+	letter-spacing: 0rem;
+	color: #f73267;
+}
+.card .right>p{
+	font-family: SourceSansPro-Light;
+	font-size: 0.2rem;
+	line-height: 0.2rem;
+	letter-spacing: 0rem;
+	color: #6c7b8a;
+}
+.right>p{
+	text-align: right;
+}
+.right .like-message{
+	display: flex;
+}
+.right .like-message div{
+	display: flex;
+}
+.right .like-message div:nth-child(2){
+	margin-left: 0.32rem;
+}
+.right .like-message p{
+	font-family: SourceSansPro-Regular;
+	font-size: 0.24rem;
+  line-height: 0.24rem;
+	letter-spacing: 0rem;
+	color: #3c4f5e;
+	margin-left: 0.08rem;
+}
+.card .pic{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 0.23rem;
+}
+.card>p{
+	font-family: SourceSansPro-Light;
+	font-size: 0.16rem;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #4d606f;
+	word-break:break-all;
+	text-align: left !important;
+	margin-top: 0.16rem;
+}
+.information{
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	margin-left: 0.21rem;
+	justify-content: center;
+}
+.information>p:nth-child(2){
+	margin-top: 0.14rem;
+}
+.like-message{
+	margin-top: 0.28rem;
+}
+.scroll{
+	height: 100vh;
+	overflow: scroll;
+}
+.scroll::-webkit-scrollbar{
+	display: none;
+}
